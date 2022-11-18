@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Welcome</title>
+  </head>
+  <body>
+    <nav>
+      <a href="/" aria-current="page">Quit</a>
+    </nav>
+    <main>
+      <h1>Welcome</h1>
+    </main>
+    <form method="GET">
+      <label for="search"></label>
+      <input type="search" id="search" name="search" accesskey="s" />
+      <fieldset>
+        <input
+          list="holiday-names"
+          id="holiday-choice"
+          name="holiday-choice"
+          placeholder="pick ur fav holiday"
+        />
+
+        <datalist id="holiday-names">
+          <option value="New Year's Day"></option>
+          <option value="Independence Day"></option>
+          <option value="Halloween"></option>
+          <option value="Thanksgiving"></option>
+          <option value="Christmas Day"></option>
+        </datalist>
+
+        <legend>more tags</legend>
+        <select name="country">
+          <optgroup label="USA">
+            <option>Alabama</option>
+            <option>Alaska</option>
+            <option>Arizona</option>
+          </optgroup>
+          <optgroup label="Canada">
+            <option>Alberta</option>
+            <option>British Columbia</option>
+            <option>Manitoba</option>
+          </optgroup>
+        </select>
+      </fieldset>
+      <fieldset>
+        <label for="text">Multiline Text</label>
+        <textarea name="text" id="text" cols="30" rows="10"></textarea>
+      </fieldset>
+      <button>Submit</button>
+    </form>
+    <button>
+      <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+    </button>
+    <details>
+      <summary>Open</summary>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto a
+        mollitia, quae, sapiente quos saepe, eius vitae est fugit nulla
+        consequuntur veniam? Quos ratione esse eaque dolores beatae voluptatem
+        aliquam enim? Cum asperiores rerum quibusdam dicta quas, numquam quia
+        labore minus sit quisquam neque rem doloremque ducimus corrupti cumque
+        in!
+      </p>
+    </details>
+    <details>
+      <summary>JavaScript code</summary>
+      <pre>
+        <code>
+          const olj = { 
+            name: 'John',
+            age: 22
+          }
+          console.log(obj);
+        </code>
+      </pre>
+    </details>
+  </body>
+  <footer>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia
+      explicabo fugit repudiandae praesentium quam nam totam alias repellat
+      quas? Molestiae facilis, perspiciatis, quo magni nesciunt sunt ea deserunt
+      culpa eveniet quaerat quisquam dolorum et nostrum nobis reiciendis eaque
+      quod fugiat eos veniam laudantium quos nemo! Ab dolores in possimus ut
+      asperiores tempora quaerat sit quis iure, aliquid itaque iste odit
+      inventore alias autem esse sunt suscipit velit est ea ducimus, veritatis
+      magnam! Tempore maiores officia distinctio?
+    </p>
+  </footer>
+</html>
